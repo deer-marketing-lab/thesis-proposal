@@ -1,5 +1,8 @@
 # Final Project Proposal
 
+[![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![Version](https://img.shields.io/badge/version-2021-green.svg)]()
+
 **The proposal for the final project is grade relevant.**
 Check the [course syllabus](INSERT) for more details.
 
@@ -11,12 +14,14 @@ Check the [course syllabus](INSERT) for more details.
 
 ## Instructions for Students
 
-1. Update the meta-information above
-2. Complete the your project proposal using `proposal.Rmd`
+1. Clone the repository to your machine.
+2. Update the meta-information above.
+3. Create the R environment for this proposal from the R terminal: `renv::restore()`. 
+4. Complete the your project proposal using `proposal.Rmd`
   * Use the template "as-is", do not modify headings, fonts, font-sizes etc.
   * The word limit is 500 words. This is an upper bound, you can do it in less and are encouraged to.
-3. Complete the `data/download_data.R` script to download the data that your final project will use.
-4. Update the R environment with `renv::snapshot()` so we know which `R` packages are used as part of your assignment. 
+5. Complete the `data/download_data.R` script to download the data that your final project will use.
+6. Update the R environment with `renv::snapshot()` so we know which `R` packages are used as part of your assignment. 
 
 ## Grading Information:
 
