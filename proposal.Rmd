@@ -1,11 +1,11 @@
 ---
-title: "Project Proposal"
+title: "Milestone 1: Project Proposal"
 author:
     - YOUR_NAME
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
   pdf_document:
-    keep_md: yes
+    keep_md: no
 urlcolor: blue
 bibliography: references.bib
 ---
@@ -18,41 +18,38 @@ knitr::opts_chunk$set(echo = TRUE)
 
 A maximum of three sentences outlining the "big picture" objective(s) of the project.
 It should not be technical, and answer the "Why You Should Care" question - i.e. justify the managerial relevance.
-My grandmother should be able to understand it.
+My mother should be able to understand it.
 
 ## Research Question
 
-SOMETHING (technical jargon can used added here)
+SOMETHING (technical jargon can used added here -- one sentence!)
 
 **Sub-Questions:** (if any)
 
-* ...
+* If none, write "None"
 
-### Type of Question
+## Type of Question
 
 The research question I will answer is a **INSERT_ANSWER** question.
 
-Replace **INSERT_ANSWER** with one of:^[These question types are borrowed from a paper by Jeff Leek and Roger Peng in their paper: "What is the question?"[-@Leek1314].
+Replace **INSERT_ANSWER** with one of the choices below:^[These question types are borrowed from a paper by Jeff Leek and Roger Peng in their paper: "What is the question?"[-@Leek1314].
 ]
 
 1. Descriptive
-2. Exploratory
-3. Inferential
-4. Predictive
-5. Causal
-6. Mechanistic
+2. Predictive
+3. Causal
+
+Once you have made your choice, remove all text except the first sentence of this section.
 
 ## Data
 
 Keep the choice which applies to your project:
 
 - I have downloaded the necessary data for this project. The script to download the data is [`data/download-data.R`](data/download-data.R)^[
-The instructors need to be able to run this script.
-Make sure you have updated the `renv` in the project template.
+The instructors need to be able to run this script so be clear what libraries are needed to be installed.
 ]
 - I have not yet downloaded the final data for this project because the event I want to study has yet to occur, but have a working R script that downloads data for an earlier time period. The script to download the data is [`data/download-data.R`](data/download-data.R)^[
 The instructors need to be able to run this script.
-Make sure you have updated the `renv` in the project template.
 ]
   - **NOTES:** Only use this option if you are using the Twitter API, and the event you plan to study has not occurred by the proposal deadline
 - I am yet to download the necessary data for this project
@@ -60,11 +57,11 @@ Make sure you have updated the `renv` in the project template.
 
 ## Data Description
 
-Provide a short paragraph explaning the data you will use in your project.
+Provide a short (max. 10 sentences) explaning the data you will use in your project.
 Where is it from?
 How many rows and columns?
 What are the important columns for your analysis?
-Provide a citation if you are using data you didn't collect yourself.
+Provide a citation for the data if you didn't collect it yourself.
 
 ## Analysis Workflow
 
@@ -80,7 +77,7 @@ My workflow will follow the following steps:
 
 ## Communicating Results
 
-Explain how you plan to report your results. 
+Explain how you plan to report your results (max. 5 sentences). 
 For example, what tables and figures do you expect your report will contain.
 Will the table be a regression table or something else?
 Will the figure(s) be a box-plot, scatterplot, something else?
