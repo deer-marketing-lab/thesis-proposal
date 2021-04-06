@@ -4,7 +4,7 @@
 [![Template Version](https://img.shields.io/badge/version-2021-green.svg)]()
 
 **The proposal for the final project is grade relevant.**
-Check the [course syllabus](INSERT) for more details.
+Check the [course syllabus](https://tisem-digital-marketing.github.io/2021-smwa/assets/syllabus.pdf) for more details.
 
 ## Meta-Information 
 
@@ -16,32 +16,32 @@ Check the [course syllabus](INSERT) for more details.
 
 1. Clone the repository to your machine.
 2. Update the meta-information above.
-3. Create the R environment for this proposal from the R terminal: `renv::restore()`. 
 4. Complete the your project proposal using `proposal.Rmd`
   * Use the template "as-is", do not modify headings, fonts, font-sizes etc.
   * The word limit is 500 words. This is an upper bound, you can do it in less and are encouraged to.
 5. Complete the `data/download_data.R` script to download the data that your final project will use.
-6. Update the R environment with `renv::snapshot()` so we know which `R` packages are used as part of your assignment. 
 
-## Grading Information:
+## Grading Information
 
-* Due Date: INSERT
+* Due Date: May 7, 2021 at 23:59 pm
 
 Submission is via GitHub Classroom.
-Your most recent commit that is on the `master` branch before the due date will be graded.
+Your most recent commit that is on the `main` branch before the due date will be graded.
+
+**You must include a PDF file "milestone-01.pdf" in the repository by the submission deadline**
 
 ## Template Meta-Information
 
 *   Template Maintainer: Lachlan Deer (`@lachlandeer`)
-*   Course: [Research in Social Media](https://github.com/tisem-social-media)
+*   Course: [Social Media and Web Analytics](https://github.com/tisem-social-media)
 *   Institute: [Dept of Marketing, TiSEM](https://www.tilburguniversity.edu/about/schools/economics-and-management/organization/departments/marketing)
-*   Template Link: [click here](UPDATE)
-*   Current Version: [Spring 2021](UPDATE)
+*   Template Link: [click here](https://github.com/tisem-digital-marketing/project-milestone-01-template)
+*   Current Version: [Spring 2021](https://tisem-digital-marketing.github.io/2021-smwa/)
 
 ### Suggested Citation
 
 ```
-Lachlan Deer, 2021, Final Project Proposal Template, Research in Social Media, TiSEM
+Lachlan Deer, 2021, Final Project: Milestone 1 Template, Social Media and Web Analytics, TiSEM
 ```
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
