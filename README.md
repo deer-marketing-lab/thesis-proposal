@@ -1,7 +1,7 @@
 # Final Project Proposal
 
-[![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
-[![Version](https://img.shields.io/badge/version-2021-green.svg)]()
+[![Template Lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![Template Version](https://img.shields.io/badge/version-2021-green.svg)]()
 
 **The proposal for the final project is grade relevant.**
 Check the [course syllabus](INSERT) for more details.

@@ -13,4 +13,6 @@
 
 # Save Data to File
 ## NOTES: Use the end of the script to save the data
-## Example: write_csv(my_df, here("data", "my_dataset.csv"))
+##        If you are using the readr library, can save as follows:
+## Example 1: write_csv(my_df, here("data", "my_dataset.csv"))
+## Example 2: write_rds(my_df, here("data", "my_dataset.csv"))
