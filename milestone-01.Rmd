@@ -18,11 +18,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 A maximum of three sentences outlining the "big picture" objective(s) of the project.
 It should not be technical, and answer the "Why You Should Care" question - i.e. justify the managerial relevance.
-My mother should be able to understand it.
+A non-expert should be able to understand it.
 
 ## Research Question
 
-SOMETHING (technical jargon can used added here -- one sentence!)
+SOMETHING (technical jargon can used added here -- **one** sentence!)
 
 **Sub-Questions:** (if any)
 
@@ -57,7 +57,7 @@ The instructors need to be able to run this script.
 
 ## Data Description
 
-Provide a short (max. 10 sentences) explaning the data you will use in your project.
+Provide a short (max. 7 sentences) explaining the data you will use in your project.
 Where is it from?
 How many rows and columns?
 What are the important columns for your analysis?
@@ -80,7 +80,7 @@ My workflow will follow the following steps:
 Explain how you plan to report your results (max. 5 sentences). 
 For example, what tables and figures do you expect your report will contain.
 Will the table be a regression table or something else?
-Will the figure(s) be a box-plot, scatterplot, something else?
+Will the figure(s) be a box-plot, scatter plot, something else?
 
 ## Word Count
 
