@@ -14,17 +14,18 @@ Check the [course syllabus](https://tisem-digital-marketing.github.io/2021-smwa/
 
 ## Instructions for Students
 
-1. Clone the repository to your machine.
-2. Update the meta-information above.
-3. Install the `wordcountaddin` package by entering the following into your RStudio console:
+1. Accept the assignment invitation on GitHub. The link to do this is on the course website.
+2. Clone the repository to your machine.
+3. Update the meta-information above.
+4. Install the `wordcountaddin` package by entering the following into your RStudio console:
 ```{r}
 devtools::install_github("benmarwick/wordcountaddin", type = "source", dependencies = TRUE)
 ```
 This package will count the number of word in your proposal, and we use this number to verify you meet the assignment length constraints
-4. Complete the your project proposal using `proposal.Rmd`
+5. Complete the your project proposal using `proposal.Rmd`
   * Use the template "as-is", do not modify headings, fonts, font-sizes etc.
   * The word limit is **500 words**. This is an upper bound, you can do it in less and are encouraged to.
-5. Complete the `data/download_data.R` script to download the data that your final project will use.
+6. Complete the `data/download_data.R` script to download the data that your final project will use.
 
 ## Grading Information
 
