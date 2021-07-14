@@ -1,53 +1,33 @@
-# Final Project Proposal
+# Thesis Proposal
 
 [![Template Lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 [![Template Version](https://img.shields.io/badge/version-2021-green.svg)]()
-
-**The proposal for the final project is grade relevant.**
-Check the [course syllabus](https://tisem-digital-marketing.github.io/2021-smwa/assets/syllabus.pdf) for more details.
 
 ## Meta-Information 
 
 * Name: YOUR_NAME
 * GitHub Handle: YOUR_GH_HANDLE
-* Proposed Project Title: YOUR_TITLE
+* Proposed Thesis Title: YOUR_TITLE
 
 ## Instructions for Students
 
-1. Accept the assignment invitation on GitHub. The link to do this is on the course website.
+1. Accept the assignment invitation on GitHub. The link to do this is was sent to you via email.
 2. Clone the repository to your machine.
 3. Update the meta-information above.
-4. Install the `wordcountaddin` package by entering the following into your RStudio console:
-```{r}
-devtools::install_github("benmarwick/wordcountaddin", type = "source", dependencies = TRUE)
-```
-This package will count the number of word in your proposal, and we use this number to verify you meet the assignment length constraints
-5. Complete the your project proposal using `proposal.Rmd`
+4. Complete the your project proposal using `proposal.Rmd`
   * Use the template "as-is", do not modify headings, fonts, font-sizes etc.
-  * The word limit is **500 words**. This is an upper bound, you can do it in less and are encouraged to.
-6. Complete the `data/download_data.R` script to download the data that your final project will use.
-
-## Grading Information
-
-* Due Date: **May 7, 2021 at 23:59 pm**
-
-Submission is via GitHub Classroom.
-Your most recent commit that is on the `main` branch before the due date will be graded.
-
-**You must include a PDF file "milestone-01.pdf" in the repository by the submission deadline**
+  * There is no strict word limit. Try to keep your thoughts within 1 to 1.5 pages.
 
 ## Template Meta-Information
 
 *   Template Maintainer: Lachlan Deer (`@lachlandeer`)
-*   Course: [Social Media and Web Analytics](https://github.com/tisem-social-media)
 *   Institute: [Dept of Marketing, TiSEM](https://www.tilburguniversity.edu/about/schools/economics-and-management/organization/departments/marketing)
-*   Template Link: [click here](https://github.com/tisem-digital-marketing/project-milestone-01)
-*   Current Version: [Spring 2021](https://tisem-digital-marketing.github.io/2021-smwa/)
+*   Template Link: [click here](https://github.com/deer-marketing-lab/thesis-proposal)
 
 ### Suggested Citation
 
 ```
-Lachlan Deer, 2021, Final Project: Milestone 1 Template, Social Media and Web Analytics, TiSEM
+Lachlan Deer, 2021, Thesis Proposal Template for theses under the supervision of Lachlan Deer, TiSEM
 ```
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
