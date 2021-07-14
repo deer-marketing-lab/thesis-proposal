@@ -1,5 +1,5 @@
 ---
-title: "Milestone 1: Project Proposal"
+title: "Thesis Proposal"
 author:
     - YOUR_NAME
 date: "`r format(Sys.time(), '%d %B, %Y')`"
@@ -16,74 +16,76 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Project Objective
 
-A maximum of three sentences outlining the "big picture" objective(s) of the project.
-It should not be technical, and answer the "Why You Should Care" question - i.e. justify the managerial relevance.
+A maximum of 5 sentences outlining the "big picture" objective(s) of the project.
+It should not be technical, and answer the "Why One Should Care" question - i.e. justify the managerial relevance.
 A non-expert should be able to understand it.
 
 ## Research Question
 
 SOMETHING (technical jargon can used added here -- **one** sentence!)
 
-**Sub-Questions:** (if any)
+**Sub-Questions:** (**max of 2**, if any)
 
 * If none, write "None"
 
-## Type of Question
-
-The research question I will answer is a **INSERT_ANSWER** question.
-
-Replace **INSERT_ANSWER** with one of the choices below:^[These question types are borrowed from a paper by Jeff Leek and Roger Peng in their paper: "What is the question?"[-@Leek1314].
-]
-
-1. Descriptive
-2. Predictive
-3. Causal
-
-Once you have made your choice, remove all text except the first sentence of this section.
-
 ## Data
 
-Keep the choice which applies to your project:
+Below is a list of datasets I need for my thesis:
 
-- I have downloaded the necessary data for this project. The script to download the data is [`data/download-data.R`](data/download-data.R)^[
-The instructors need to be able to run this script so be clear what libraries are needed to be installed.
-]
-- I have not yet downloaded the final data for this project because the event I want to study has yet to occur, but have a working R script that downloads data for an earlier time period. The script to download the data is [`data/download-data.R`](data/download-data.R)^[
-The instructors need to be able to run this script.
-]
-  - **NOTES:** Only use this option if you are using the Twitter API, and the event you plan to study has not occurred by the proposal deadline
-- I am yet to download the necessary data for this project
-  - **NOTES:** Selecting this option comes with a **30% penalty** to your grade as you have not met the requirements for the proposal.
+**Template:**
 
-## Data Description
+* Dataset name
+  * Where does it come from? (1 sentence)
+  * Why do I need it? (1 sentence)
+  * How will I obtain access to it? (1 sentence)
+  * What are the main variables I need from this data?
 
-Provide a short (max. 7 sentences) explaining the data you will use in your project.
-Where is it from?
-How many rows and columns?
-What are the important columns for your analysis?
-Provide a citation for the data if you didn't collect it yourself.
+## Methodology
 
-## Analysis Workflow
+### Empirical Modelling
 
-My workflow will follow the following steps:
+Write down as best you can your proposed empirical modelling strategy.
+Carefully explain any notation you introduce.
 
-* **Step 1**. SOMETHING
-  * Some details
-  * More details (if needed)
-* **Step 2**. SOMETHING
-  * Some details
-  * More details (if needed)
-* ...
+What challenges will you face linking planned results to answering the research question?
+
+### From Raw Data to Empirical Model
+
+Explain how you anticipate going from the data sets above to something that can go into your empirical model.
+Dot points detailing an approximate workflow are sufficient.
 
 ## Communicating Results
 
-Explain how you plan to report your results (max. 5 sentences). 
-For example, what tables and figures do you expect your report will contain.
-Will the table be a regression table or something else?
+Explain how you plan to report your results. 
+For example, what tables and figures do you expect your thesis will contain.
+Will the table(s) be a regression table(s) or something else?
 Will the figure(s) be a box-plot, scatter plot, something else?
 
-## Word Count
+## Timetable
 
-Number of Words: `r wordcountaddin::word_count("proposal.Rmd")`
+Detail your proposed timetable for completing the study.
+It's non-binding, but should provide a plan of attack.
+I suggest making a table [here](https://www.tablesgenerator.com/markdown_tables) and copying the markdown in to this document
+
+Key moments to include:
+
+* Literature review 
+* Collect raw data
+* Complete data cleaning
+* Preliminary Results
+* Updated Results
+* Complete thesis draft
+
+## Challenges & Opportunities
+
+List any challenges you might anticipate along the way.
+These are good to think about in advance so we can talk through how to get ahead of them early.
+Most likely these are knowledge gaps that you will want to bridge.
+For each challenge, think through how to map these into an opoprtunity to develop your skills and how you might go about it.
+
+* Challenge 1
+  * Opportunity:
+
+Unanticipated challenges will also arise, we'll face those as we find them.
 
 ## References

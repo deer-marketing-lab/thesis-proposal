@@ -16,7 +16,7 @@
 3. Update the meta-information above.
 4. Complete the your project proposal using `proposal.Rmd`
   * Use the template "as-is", do not modify headings, fonts, font-sizes etc.
-  * There is no strict word limit. Try to keep your thoughts within 1 to 1.5 pages.
+  * There is no strict word limit. Try to keep your thoughts within 1.5 - 2 pages.
 
 ## Installation Help!?
 
