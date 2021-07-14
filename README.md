@@ -3,7 +3,7 @@
 [![Template Lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 [![Template Version](https://img.shields.io/badge/version-2021-green.svg)]()
 
-## Meta-Information 
+## Meta-Information
 
 * Name: YOUR_NAME
 * GitHub Handle: YOUR_GH_HANDLE
@@ -18,11 +18,33 @@
   * Use the template "as-is", do not modify headings, fonts, font-sizes etc.
   * There is no strict word limit. Try to keep your thoughts within 1 to 1.5 pages.
 
+## Installation Help!?
+
+You will need the following installed (in addition to R/Rstudio and Git):
+
+* If you are on Windows, install [Rtools][rtools]
+* `knitr` and `rmarkdown`. In an R console:
+
+```{r}
+to_install <-c( 
+                "rmarkdown",
+                "knitr"
+              )
+install.packages(to_install)
+```
+
+* Install a LaTeX distribution - I recommend using `tinytex` via R:
+
+```{r}
+install.packages(tinytex)
+tinytex::install_tinytex()
+```
+
 ## Template Meta-Information
 
-*   Template Maintainer: Lachlan Deer (`@lachlandeer`)
-*   Institute: [Dept of Marketing, TiSEM](https://www.tilburguniversity.edu/about/schools/economics-and-management/organization/departments/marketing)
-*   Template Link: [click here](https://github.com/deer-marketing-lab/thesis-proposal)
+* Template Maintainer: Lachlan Deer (`@lachlandeer`)
+* Institute: [Dept of Marketing, TiSEM](https://www.tilburguniversity.edu/about/schools/economics-and-management/organization/departments/marketing)
+* Template Link: [click here](https://github.com/deer-marketing-lab/thesis-proposal)
 
 ### Suggested Citation
 
@@ -33,3 +55,5 @@ Lachlan Deer, 2021, Thesis Proposal Template for theses under the supervision of
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
 
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+[rtools]: http://jtleek.com/modules/01_DataScientistToolbox/02_10_rtools/#1
