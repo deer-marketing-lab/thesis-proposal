@@ -33,10 +33,10 @@ to_install <-c(
 install.packages(to_install)
 ```
 
-* Install a LaTeX distribution - I recommend using `tinytex` via R:
+* Install a LaTeX distribution - I recommend using `tinytex` via R. In an R console:
 
 ```{r}
-install.packages(tinytex)
+install.packages("tinytex")
 tinytex::install_tinytex()
 ```
 
